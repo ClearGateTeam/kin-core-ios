@@ -33,7 +33,7 @@ extension NetworkId {
     public var issuer: String {
         switch self {
         case .mainNet:
-            return ""
+            return "GAQ4HYZJ5PSYBMHXAX75DKN4YGHFIEGZYBDTGFV7ZHYGQWVGFHOW75CB"
         case .testNet:
             return "GCKG5WGBIJP74UDNRIRDFGENNIH5Y3KBI5IHREFAJKV4MQXLELT7EX6V"
         case .custom (let issuer, _):
